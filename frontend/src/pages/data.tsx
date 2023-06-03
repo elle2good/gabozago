@@ -1,3 +1,4 @@
+import * as react from 'react';
 import { AuctionCardProps } from 'interfaces/index';
 
 import reptile from 'assets/images/reptile.jpeg';
@@ -80,3 +81,8 @@ export const auctions: AuctionCardProps[] = [
         description: 'Hustle Bustle'
     },
 ];
+
+const test = () => {
+    return <div />
+};
+export default test;
